@@ -1,0 +1,26 @@
+# Cryptographie
+cryptography>=41.0.0
+
+# Interface CLI
+rich>=13.7.0
+typer>=0.9.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Base de données
+# SQLite est inclus avec Python (pas besoin d'installer)
+
+# Tests
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Utilitaires
+python-dateutil>=2.8.0
+
+# Graphiques ASCII (optionnel)
+plotille>=5.0.0
+asciichartpy>=1.5.25
+
+# Logging coloré
+colorlog>=6.7.0

@@ -1,0 +1,8 @@
+# Cryptographie
+cryptography>=41.0.0
+
+# Interface CLI
+rich>=13.7.0
+
+# Progress bars
+tqdm>=4.66.0
