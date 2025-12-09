@@ -1,21 +1,10 @@
 # 🔐 PKI Simple - Infrastructure à Clés Publiques
 
-> Version ultra-simplifiée : 1 fichier, pas de SQL, facile à comprendre
-
-## 🎯 Philosophie
-
-- **Simple** : Tout le code dans `pki.py` (~500 lignes)
-- **Pas de SQL** : Juste un fichier JSON (`registry.json`)
-- **Éducatif** : Code clair et commenté
-- **Fonctionnel** : PKI complète et conforme aux standards
-
----
-
 ## 📦 Installation
 
 ```bash
 # Cloner ou télécharger le projet
-cd pki_simple
+cd a-DIY-PKI-in-python/pki
 
 # Installer les dépendances
 pip install -r requirements.txt
