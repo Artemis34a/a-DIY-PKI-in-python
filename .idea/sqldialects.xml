@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/old_2/src/pki/config.py" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/old_2/src/pki/database.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/z_old/csr_manager.py" dialect="GenericSQL" />
   </component>
 </project>

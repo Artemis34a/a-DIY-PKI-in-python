@@ -144,6 +144,8 @@ def create_root_ca(
     serial = secrets.randbits(150)
     now = datetime.now(timezone.utc)
 
+    # Petit rappel au cas ou j'oubli quelque chose : --- Ici c'est une implementation
+    # de la programmation fonctionnelle sur python
     cert = (
         x509.CertificateBuilder()
         .subject_name(subject)
@@ -231,7 +233,8 @@ def create_intermediate_ca(
         x509.NameAttribute(NameOID.COMMON_NAME, common_name),
     ])
 
-    serial = secrets.randbits(150)
+    serial = secrets.randbits(150) # pour generer un numero de série
+                                    # au hasard la taille est fixée a 150 random bits
     now = datetime.now(timezone.utc)
 
     cert = (
@@ -246,7 +249,9 @@ def create_intermediate_ca(
             x509.BasicConstraints(ca=True, path_length=0),
             critical=True
         )
-        .add_extension(
+        .add_extension( # J'ai preferé mettre faux à touts les lextentions
+                        # demandées par la norme X509
+                        # pour faciliter le code
             x509.KeyUsage(
                 digital_signature=False,
                 content_commitment=False,
