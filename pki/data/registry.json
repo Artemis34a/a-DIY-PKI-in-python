@@ -1,172 +1,42 @@
 {
   "certificates": {
-    "1AC8C7DEDB95D746E46629A27AA182A39629C4": {
+    "3C973DDF196012C359A38D751EA1B0D99BDFB0": {
       "type": "root_ca",
-      "subject": "Demo Root CA",
-      "serial": "1AC8C7DEDB95D746E46629A27AA182A39629C4",
-      "not_before": "2025-11-29T19:35:20.626985+00:00",
-      "not_after": "2045-11-24T19:35:20.626985+00:00",
+      "subject": "artemis_root",
+      "serial": "3C973DDF196012C359A38D751EA1B0D99BDFB0",
+      "not_before": "2025-12-14T08:02:14.285485+00:00",
+      "not_after": "2045-12-09T08:02:14.285485+00:00",
       "status": "active",
       "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\root_ca_cert.pem"
     },
-    "1DF987405EE6444876D02C39E5007719EFB6B4": {
+    "1311484ECC1E14065526A174F292EF919BA018": {
       "type": "intermediate_ca",
-      "subject": "Demo Intermediate CA",
-      "serial": "1DF987405EE6444876D02C39E5007719EFB6B4",
-      "not_before": "2025-11-29T19:35:37.990700+00:00",
-      "not_after": "2035-11-27T19:35:37.990700+00:00",
+      "subject": "interCA",
+      "serial": "1311484ECC1E14065526A174F292EF919BA018",
+      "not_before": "2025-12-14T08:02:40.924272+00:00",
+      "not_after": "2035-12-12T08:02:40.924272+00:00",
       "status": "active",
       "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\intermediate_ca_cert.pem"
     },
-    "8F8DE6FB11A13D80D6A0C31B9B9DA0C30863B": {
-      "type": "root_ca",
-      "subject": "Demo Root CA",
-      "serial": "8F8DE6FB11A13D80D6A0C31B9B9DA0C30863B",
-      "not_before": "2025-11-29T19:37:08.908917+00:00",
-      "not_after": "2045-11-24T19:37:08.908917+00:00",
-      "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\root_ca_cert.pem"
-    },
-    "23B22E7CF919808CF4CBE2861700C682169F4E": {
-      "type": "intermediate_ca",
-      "subject": "Demo Intermediate CA",
-      "serial": "23B22E7CF919808CF4CBE2861700C682169F4E",
-      "not_before": "2025-11-29T19:37:14.706663+00:00",
-      "not_after": "2035-11-27T19:37:14.706663+00:00",
-      "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\intermediate_ca_cert.pem"
-    },
-    "18CE5FD6762A9C18DAECC47840B5C5AF559C7E": {
+    "1EB32C523142A126F5BBBB26C83F63A792880": {
       "type": "client",
-      "subject": "Alice",
-      "serial": "18CE5FD6762A9C18DAECC47840B5C5AF559C7E",
-      "not_before": "2025-11-29T19:37:17.259885+00:00",
-      "not_after": "2026-11-29T19:37:17.259885+00:00",
-      "status": "revoked",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\alice_cert.pem",
-      "revoked_at": "2025-11-29T19:37:41.829285+00:00",
-      "revocation_reason": "key_compromise"
+      "subject": "Alice Manoaban",
+      "serial": "1EB32C523142A126F5BBBB26C83F63A792880",
+      "not_before": "2025-12-14T08:02:51.497556+00:00",
+      "not_after": "2026-12-14T08:02:51.497556+00:00",
+      "status": "active",
+      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\alice_manoaban_cert.pem"
     },
-    "3809D6CA24F25BE07232BA2199E0FD7A63D4C0": {
+    "348236CD67A2CCB6A7C8A653115E72B18FA133": {
       "type": "client",
-      "subject": "Bob",
-      "serial": "3809D6CA24F25BE07232BA2199E0FD7A63D4C0",
-      "not_before": "2025-11-29T19:37:17.281751+00:00",
-      "not_after": "2026-11-29T19:37:17.281751+00:00",
+      "subject": "Bob McLane",
+      "serial": "348236CD67A2CCB6A7C8A653115E72B18FA133",
+      "not_before": "2025-12-14T08:03:01.142223+00:00",
+      "not_after": "2026-12-14T08:03:01.142223+00:00",
       "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\bob_cert.pem"
-    },
-    "12289E60E4A8AA659C01F32F5CAC31BF546F1E": {
-      "type": "root_ca",
-      "subject": "Demo Root CA",
-      "serial": "12289E60E4A8AA659C01F32F5CAC31BF546F1E",
-      "not_before": "2025-11-29T19:48:08.273636+00:00",
-      "not_after": "2045-11-24T19:48:08.273636+00:00",
-      "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\root_ca_cert.pem"
-    },
-    "28523C1735699FB9161E058A53D13CDB8464C0": {
-      "type": "intermediate_ca",
-      "subject": "Demo Intermediate CA",
-      "serial": "28523C1735699FB9161E058A53D13CDB8464C0",
-      "not_before": "2025-11-29T19:48:25.206295+00:00",
-      "not_after": "2035-11-27T19:48:25.206295+00:00",
-      "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\intermediate_ca_cert.pem"
-    },
-    "31489BF23D5B73FA6470DE71AA54B2EF7D6E91": {
-      "type": "client",
-      "subject": "Alice",
-      "serial": "31489BF23D5B73FA6470DE71AA54B2EF7D6E91",
-      "not_before": "2025-11-29T19:48:50.345684+00:00",
-      "not_after": "2026-11-29T19:48:50.345684+00:00",
-      "status": "revoked",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\alice_cert.pem",
-      "revoked_at": "2025-11-29T19:50:26.396250+00:00",
-      "revocation_reason": "key_compromise"
-    },
-    "1C38471EAA047B8CF4A34DD1333E2E40C3B2D4": {
-      "type": "client",
-      "subject": "Bob",
-      "serial": "1C38471EAA047B8CF4A34DD1333E2E40C3B2D4",
-      "not_before": "2025-11-29T19:48:50.390274+00:00",
-      "not_after": "2026-11-29T19:48:50.390274+00:00",
-      "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\bob_cert.pem"
-    },
-    "3EEA400BB6F774E72B31E70BBADC80658670A8": {
-      "type": "root_ca",
-      "subject": "Demo Root CA",
-      "serial": "3EEA400BB6F774E72B31E70BBADC80658670A8",
-      "not_before": "2025-12-01T17:54:27.839142+00:00",
-      "not_after": "2045-11-26T17:54:27.839142+00:00",
-      "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\root_ca_cert.pem"
-    },
-    "14274331876604CC123860A4C49B3D23423FDF": {
-      "type": "intermediate_ca",
-      "subject": "Demo Intermediate CA",
-      "serial": "14274331876604CC123860A4C49B3D23423FDF",
-      "not_before": "2025-12-01T17:54:36.628963+00:00",
-      "not_after": "2035-11-29T17:54:36.628963+00:00",
-      "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\intermediate_ca_cert.pem"
-    },
-    "DCF3F08F7CD740682259170E09CC28D96460E": {
-      "type": "root_ca",
-      "subject": "Demo Root CA",
-      "serial": "DCF3F08F7CD740682259170E09CC28D96460E",
-      "not_before": "2025-12-08T11:59:46.166973+00:00",
-      "not_after": "2045-12-03T11:59:46.166973+00:00",
-      "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\root_ca_cert.pem"
-    },
-    "10D443469234CB87BDE2FC29082349B5B9005A": {
-      "type": "intermediate_ca",
-      "subject": "Demo Intermediate CA",
-      "serial": "10D443469234CB87BDE2FC29082349B5B9005A",
-      "not_before": "2025-12-08T12:00:53.020473+00:00",
-      "not_after": "2035-12-06T12:00:53.020473+00:00",
-      "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\intermediate_ca_cert.pem"
-    },
-    "2385E28D6CB6CFD9AAA44EDFA117C7C579CAA7": {
-      "type": "client",
-      "subject": "Alice",
-      "serial": "2385E28D6CB6CFD9AAA44EDFA117C7C579CAA7",
-      "not_before": "2025-12-08T12:01:06.156389+00:00",
-      "not_after": "2026-12-08T12:01:06.156389+00:00",
-      "status": "revoked",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\alice_cert.pem",
-      "revoked_at": "2025-12-08T12:02:28.740412+00:00",
-      "revocation_reason": "key_compromise"
-    },
-    "2AE0683943BC9B71565987D2075D77CA29E01E": {
-      "type": "client",
-      "subject": "Bob",
-      "serial": "2AE0683943BC9B71565987D2075D77CA29E01E",
-      "not_before": "2025-12-08T12:01:06.225021+00:00",
-      "not_after": "2026-12-08T12:01:06.225021+00:00",
-      "status": "active",
-      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\bob_cert.pem"
+      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki\\data\\certs\\bob_mclane_cert.pem"
     }
   },
-  "revoked": [
-    {
-      "serial": "18CE5FD6762A9C18DAECC47840B5C5AF559C7E",
-      "revoked_at": "2025-11-29T19:37:41.829285+00:00",
-      "reason": "key_compromise"
-    },
-    {
-      "serial": "31489BF23D5B73FA6470DE71AA54B2EF7D6E91",
-      "revoked_at": "2025-11-29T19:50:26.396250+00:00",
-      "reason": "key_compromise"
-    },
-    {
-      "serial": "2385E28D6CB6CFD9AAA44EDFA117C7C579CAA7",
-      "revoked_at": "2025-12-08T12:02:28.740412+00:00",
-      "reason": "key_compromise"
-    }
-  ],
+  "revoked": [],
   "csr_requests": {}
 }

@@ -105,6 +105,13 @@ pki_simple/
 ### ✅ Génération de clés
 - RSA 2048, 3072, 4096 bits
 - Sauvegarde PEM chiffrée (AES-256)
+Le format PEM (Privacy-Enhanced Mail) est un format de fichier texte
+standardisé utilisé pour stocker des données cryptographiques comme 
+les certificats SSL/TLS, les clés publiques et privées, et les demandes 
+de certificats (CSR). Il convertit les données binaires en texte ASCII grâce
+à l'encodage Base64, encadré par des balises lisibles comme -----BEGIN CERTIFICATE----- 
+et -----END CERTIFICATE-----, ce qui le rend facile à lire, à éditer et à partager par e-mail
+ou d'autres moyens
 - Protection par mot de passe optionnelle
 
 ### ✅ Root CA
