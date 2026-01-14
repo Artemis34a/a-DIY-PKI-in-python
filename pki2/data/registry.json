@@ -1,0 +1,50 @@
+{
+  "certificates": {
+    "39436E297BA5786518D8E2EA3AA9C81DE8FFC5": {
+      "type": "root_ca",
+      "subject": "Demo Root CA",
+      "serial": "39436E297BA5786518D8E2EA3AA9C81DE8FFC5",
+      "not_before": "2026-01-13T10:52:53.270254+00:00",
+      "not_after": "2046-01-08T10:52:53.270254+00:00",
+      "status": "active",
+      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki2\\data\\certs\\root_ca_cert.pem"
+    },
+    "DD22A693748BC49D69CC3B9109029B6C7924A": {
+      "type": "intermediate_ca",
+      "subject": "Demo Intermediate CA",
+      "serial": "DD22A693748BC49D69CC3B9109029B6C7924A",
+      "not_before": "2026-01-13T10:52:53.758190+00:00",
+      "not_after": "2036-01-11T10:52:53.758190+00:00",
+      "status": "active",
+      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki2\\data\\certs\\intermediate_ca_cert.pem"
+    },
+    "3033C4BA2017303021CE92405F75A142B61A7E": {
+      "type": "client",
+      "subject": "Alice",
+      "serial": "3033C4BA2017303021CE92405F75A142B61A7E",
+      "not_before": "2026-01-13T10:52:53.867322+00:00",
+      "not_after": "2027-01-13T10:52:53.867322+00:00",
+      "status": "revoked",
+      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki2\\data\\certs\\alice_cert.pem",
+      "revoked_at": "2026-01-13T11:23:40.412707+00:00",
+      "revocation_reason": "cessation_of_operation"
+    },
+    "3DC2F58C2635E243AC1C6633B1BA3BE1D7B758": {
+      "type": "client",
+      "subject": "Bob",
+      "serial": "3DC2F58C2635E243AC1C6633B1BA3BE1D7B758",
+      "not_before": "2026-01-13T10:52:53.979535+00:00",
+      "not_after": "2027-01-13T10:52:53.979535+00:00",
+      "status": "active",
+      "path": "C:\\Users\\LENOVO\\Desktop\\projects\\pythonProject1A\\a_diy_PKI\\pki2\\data\\certs\\bob_cert.pem"
+    }
+  },
+  "revoked": [
+    {
+      "serial": "3033C4BA2017303021CE92405F75A142B61A7E",
+      "revoked_at": "2026-01-13T11:23:40.412707+00:00",
+      "reason": "cessation_of_operation"
+    }
+  ],
+  "csr_requests": {}
+}
